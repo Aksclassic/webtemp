@@ -1,0 +1,218 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+/*header*/
+.header{
+  width: 80%;
+  height:100px;
+  padding: 0px 10%;
+  padding-bottom: 2%;
+  /*background-color: yellow;*/
+
+}
+
+.logo{
+  float: left;
+}
+
+.logo h3{
+  font-family: 'Great Vibes', cursive;
+}
+
+.nav{
+  float: left;
+  height: 40px;
+  width:70%;
+  margin-left: 12%;
+  margin-top: 70;
+/*background-color: orange;*/
+
+
+
+
+
+}
+
+.nav ul {
+  list-style: none;
+  line-height: 40px;
+}
+
+.nav ul li{
+  display: inline;
+
+padding: 0px 30px;
+
+}
+
+.nav ul li a{
+
+  font-size: 25px;
+  font-family: Pacifico;
+  text-decoration: none;
+  color: #1A1512;
+/*  background-color: blue;*/
+
+}
+
+.nav ul li a:hover{
+  color: #F80500;
+  text-decoration: underline;
+}
+/*end of header*/
+
+/*start of img caption*/
+.homeimg{
+  width: 80%;
+  height:530px;
+margin-left: 10%;
+  background: url('../images/main.jpg');
+  background-size: 100% 100%;
+  position: relative;
+  margin-bottom: 5px;
+
+}
+
+.homeimg .imgcaption{
+  position: absolute;
+  top:20%;
+
+}
+hr{
+  height: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #F80500;
+  margin-bottom: 20px;
+}
+
+.homeimg .imgcaption p{
+  font-size: 40px;
+  color:white;
+  font-family: 'Dancing Script', cursive;
+
+}
+/*End of img caption*/
+
+/* Start About us*/
+.about{
+  width:80%;
+
+  padding:0px 10%;
+
+}
+.about p{
+  font-size: 50px;
+  padding:20px 0px;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  color:#F80500;
+
+
+}
+
+.about h2{
+  text-indent: 10px;
+  background-color:#1E1F1F;
+  border-radius: 18px;
+  font-family: sans-serif;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+  margin-bottom: 10px;
+  color: white;
+  padding:10px 0px;
+  padding-left: 20px;
+
+
+}
+/*end about*/
+
+.ourt{
+  width:80%;
+  padding:0px 10%;
+margin-left: 12px;
+
+}
+.ourt p{
+  font-size: 50px;
+  padding:20px 0px;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  color:#F80500;
+}
+/*.ourt img{
+  border-radius: 50%;
+  width:250px;
+  height:250px;
+  padding: 0px 25px;
+  float: left;*/
+.ourt .outin{
+  width:20%;
+height: 400px;
+/*background-color: yellow;*/
+
+float:left;
+/*display: inline;*/
+padding: 0px 30px;
+
+}
+
+.ourt .outin .upper{
+  width:243px;
+  height:243px;
+
+}
+.ourt .outin .lower{
+  width:243px;
+  height:140px;
+  background-color: #1E1F1F;
+  color: white;
+  border-radius: 10%
+}
+
+.ourt .outin .lower h2{
+  margin-top: 10px;
+  font-family: Pacifico;
+  margin-left: 15%;
+
+}
+.ourt .outin .lower h3{
+
+  margin-left: 10%;
+    font-family: 'Dancing Script', cursive;
+
+}
+.ourt .outin .upper img{
+  width: 243px;
+  height: 243px;
+border-radius: 50%;
+}
+.cs{
+
+    width:80%;
+
+    padding:0px 10%;
+    margin-top: 30%;
+
+
+}
+.cs p{
+  font-size: 50px;
+  padding:20px 0px;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  color:#F80500;
+}
+
+.cs h2{
+  text-indent: 20px;
+  background-color:#1E1F1F;
+  border-radius: 20px;
+  font-family: sans-serif;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+
+}
